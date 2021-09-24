@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MyMain {
 
     // Reverses an array
@@ -69,5 +71,9 @@ public class MyMain {
 
     public static void main(String[] args) {
         // YOUR CODE HERE
+        System.out.println(Arrays.toString(reverse(new int[]{1, 2, 3, 4, 5})));
+        System.out.println((secondLargest(new int[]{1, 2, 3, 4, 5})));
+        System.out.println(spellCheck("LOL"));
+
     }
 }
